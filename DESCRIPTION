@@ -1,0 +1,17 @@
+Package: s3method
+Title: What differences cause S3 generics and methods to be inconsistent?
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Hadley",
+             family = "Wickham",
+             role = c("aut", "cre"),
+             email = "hadley@rstudio.com"),
+      person(given = "RStudio",
+             role = "cph"))
+Description: Deliberate attempts to get the R CMD CHECK "S3 generic/method 
+  consistency" to fail.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
