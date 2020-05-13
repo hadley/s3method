@@ -10,6 +10,10 @@ foo1 <- function(x, y) UseMethod("foo1")
 foo1.more <- function(x, y, z) NULL
 #' @export
 foo1.fewer <- function(x) NULL
+#' @export
+foo1.dots <- function(...) NULL
+
+
 
 #' @rdname foo
 #' @export
